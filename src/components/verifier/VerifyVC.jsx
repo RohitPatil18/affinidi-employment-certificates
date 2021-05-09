@@ -2,7 +2,8 @@ import React, { useContext, useState } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles, Typography, Card } from '@material-ui/core';
-import QrReader from 'react-qr-reader';
+// import QrReader from 'react-qr-reader';
+import QrReader from 'react-qr-scanner';
 import Input from '../widgets/Input';
 import Button from './../widgets/Button';
 import axios from 'axios';
@@ -96,8 +97,10 @@ const VerifyVC = () => {
 
 	const handleScan = async (data) => {
 		if (data) {
-			setURL(data);
-			await submit(null, data);
+// 			setURL(data);
+// 			await submit(null, data);
+			setURL(data.text);
+			await submit(null, data.text);
 			setScan(false);
 		}
 	};
