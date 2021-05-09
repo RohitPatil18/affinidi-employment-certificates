@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+#root {
+	height: 100vh;
+}
+
+.App {
+	height: inherit;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input_box {
+	margin: 16px;
+}
+
+.click_me {
+	cursor: pointer;
+}
+
+.ml-16 {
+	margin-left: 16px;
+}
+
+.ml-8 {
+	margin-left: 8px;
+}
+
+.mb-24 {
+	margin-bottom: 24px;
+}
+
+.mb-16 {
+	margin-bottom: 16px;
+}
+.auth_redirect {
+	color: #626262;
+}
+
+.auth_redirect:hover {
+	color: #242424;
+}
+
+.row {
+	display: flex;
+	margin: 0 -16px;
+}
+
+.row > .input_box {
+	width: 50%;
+}
+
+.right_aligned {
+	display: flex;
+	margin-left: auto;
+}
+
+.button {
+	width: 120px;
+	margin: 32px 16px 16px 16px;
+	display: flex;
+	justify-content: end;
+}
+
+.detail {
+	margin-top: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.data {
+	padding: 8px 16px;
+}
+
+.data > p {
+	width: 120px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.data > label {
+	margin-left: 16px;
+	font-size: 18px;
+	font-family: 'Open Sans';
+}
