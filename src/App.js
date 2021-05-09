@@ -20,9 +20,9 @@ function App() {
 				<BrowserRouter>
 					<Suspense fallback={<Loader />}>
 						<Switch>
+							<Route path={routes.ACCEPT} component={LazyAuthLayout} />
+							<Route path={routes.VERIFY} exact component={LazyVerify} />
 							<AlertProvider>
-								<Route path={routes.ACCEPT} component={LazyAuthLayout} />
-								<Route path={routes.VERIFY} exact component={LazyVerify} />
 								<Auth>
 									<ThemeProvider theme={theme}>
 										<Toast />
