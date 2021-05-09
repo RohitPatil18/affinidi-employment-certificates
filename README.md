@@ -20,7 +20,7 @@ We tried to look up for a decentralized solution where all issued certificates c
 
 This repository contains code for the demo application where we have demonstrated how we can achieve it using Affinidi's verifiable APIs.
 
-You can find demo application [here](https://google.com)
+You can find demo application [here](https://affinidi-emp-certs.netlify.app)
 
 ------------------------------------------------------
 
