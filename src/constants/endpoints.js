@@ -9,7 +9,7 @@ export const ISSUER_BASE_URL =
 export const VERIFIER_BASE_URL =
 	'https://affinity-verifier.prod.affinity-project.org/api/v1';
 
-export const BASE_URL = process.env.REACT_APP_BASE_URL;
+export const BASE_URL = 'https://empcert.dev-apps.online/';
 
 export const endpoints = {
 	SIGNUP: '/users/signup',
