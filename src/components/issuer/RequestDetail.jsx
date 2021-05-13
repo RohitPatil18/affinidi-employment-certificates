@@ -61,7 +61,7 @@ const RequestDetail = (props) => {
 				{
 					to_name: detail.firstName + ' ' + detail.lastName,
 					to_email: detail.email,
-					message: BASE_URL + 'accept/URL=' + string,
+					message: 'https://empcert.dev-apps.online/' + 'accept/URL=' + string,
 				},
 				process.env.REACT_APP_EMAILJS_USER_ID
 			)
